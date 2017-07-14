@@ -62,4 +62,11 @@ dependencies {
 
     //图片加载
     compile "com.github.bumptech.glide:glide:$rootProject.ext.glide_Ver"
+
+    // Architecture Components
+    compile "android.arch.lifecycle:runtime:1.0.0-alpha4"
+
+    compile "android.arch.lifecycle:extensions:1.0.0-alpha4"
+
+    annotationProcessor "android.arch.lifecycle:compiler:1.0.0-alpha4"
 }
